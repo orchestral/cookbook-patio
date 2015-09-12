@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "583704bd214395534736d9399f897eef",
+    "hash": "1232a76e1a3804edcb2d2afbcd86c4b2",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -3166,6 +3166,57 @@
                 "testing"
             ],
             "time": "2015-04-02 19:54:00"
+        },
+        {
+            "name": "orchestra/studio",
+            "version": "v3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/studio.git",
+                "reference": "46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3",
+                "reference": "46b90ba0c6d14f921dcb0b5b4f068c314f58bbc3",
+                "shasum": ""
+            },
+            "require": {
+                "orchestra/support": "~3.1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/console": "~5.1.0",
+                "illuminate/filesystem": "~5.1.0",
+                "mockery/mockery": "0.9.*"
+            },
+            "suggest": {
+                "wikimedia/composer-merge-plugin": "Add workbench support for Orchestra Platform (~1.1)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Studio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Code Generator for Orchestra Platform",
+            "time": "2015-08-23 10:17:21"
         },
         {
             "name": "orchestra/testbench",
